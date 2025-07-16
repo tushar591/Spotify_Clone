@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round',sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family : 'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display : flex;
+    list-style-type: none;
+    height : 65px;
+    background-color: black;
+    color : white;
+    align-items: center;
+    
+}
+
+nav ul li{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.brand img{
+    height: 49px;
+    width: 54px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.container{
+    height : 75vh;
+    width : 80%;
+    background-color: black;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color : white;
+    padding : 15px;
+    background-image: url('bg.jpg');
+
+}
+
+.songname{
+    display: flex;
+    align-items: center;
+    justify-content :space-between;
+    height: 40px;
+    width : 45%;
+    background-color: white;
+    color : black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.songname img{
+    height : 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.timestamp{
+    margin-right: 20px;
+}
+
+.timestamp i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.bottom{
+    background-color: black;
+    height : 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color : white;
+}
+
+.songinfo{
+    position : absolute;
+    height : 15px;
+    left : 10vw;
+}
+
+.songinfo img{
+    opacity : 0;
+    transition : opacity 0.5s ease-in;
+}
+
+#name{
+    display: flex;
+    gap : 10px;
+    margin-top: 10px;
+}
+
+#myprogressbar{
+    width : 80%;
+    margin-top: 0px;
+    padding-top: 0px;
+    cursor : pointer;
+}
+
+.icons{
+    color : white;
+    margin-top : 15px;
+}
+
+.icons i{
+    cursor : pointer;
+}
+
