@@ -2,8 +2,8 @@ var play = document.getElementById("play");
 var progessbar = document.getElementById("myprogressbar");
 var song = new Audio('m2.mp3');
 var gif = document.getElementById('gif');
-var changename = document.getElementById('changename');  // Ensure this element exists in your HTML
-let index = 0;  // Initialize song index
+var changename = document.getElementById('changename');  
+let index = 0;  
 
 play.addEventListener('click', function(){
     if(song.paused || song.currentTime <= 0){
